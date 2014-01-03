@@ -34,8 +34,10 @@ public class ImageCrawler extends WebCrawler {
 			FileCrawler crawler) {
 		ImageCrawler.crawlDomain = domain;
 
+		
 		storageFolder = new File(storageFolderName);
 		if (!storageFolder.exists()) {
+			
 			storageFolder.mkdirs();
 		}
 
