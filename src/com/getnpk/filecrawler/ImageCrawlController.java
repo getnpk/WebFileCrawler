@@ -10,12 +10,6 @@ import edu.uci.ics.crawler4j.robotstxt.RobotstxtServer;
  * @author Nitin <getnpk at gmail dot com>
  */
 
-
-/*
- * IMPORTANT: Make sure that you update crawler4j.properties file and set
- * crawler.include_images to true
- */
-
 public class ImageCrawlController {
 
         public static void main(String[] args) throws Exception {
