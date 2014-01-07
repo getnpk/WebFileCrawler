@@ -1,13 +1,15 @@
 package com.getnpk.filecrawler;
 
 import java.io.File;
-import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**
  * @author Nitin <getnpk at gmail dot com>
  */
 
+/**
+* Launchs the app
+*/
 public class Launch {
 
 	public static void main(String args[]) {
